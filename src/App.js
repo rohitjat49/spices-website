@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./components/Home";
+import { About } from "./components/About";
+import { Services } from "./components/Services";
+import { Contact } from "./components/Contact";
+import Product from "./components/Product";
+import { Login } from "./AdminPanel/Login";
+import TablePage from "./dashboard/TablePage";
+import AddProduct from "./dashboard/AddProduct";
+import Dashboard from "./dashboard/Dashboard";
+import { useAuth } from "./context/AuthContext";
+import Navbar from "./components/Navbar";
+import { Footer } from "./components/Footer";
+import ProductList from "./dashboard/ProductList";
 
 function App() {
+  const { isLoggedIn } = useAuth();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/table" element={<TablePage />} />
+        <Route path="/add-product" element={<AddProduct />} />
+        <Route path="/productlist" element={<ProductList />}></Route>
+      </Routes>
+       <Footer />
+      
+  
+  
     </div>
   );
 }

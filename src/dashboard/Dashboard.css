@@ -1,0 +1,19 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: rgba(15, 23, 43, 0.9); /* Semi-transparent dark blue */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    background-color: #f0f0f0; /* Light gray for contrast */
+  }
+  
