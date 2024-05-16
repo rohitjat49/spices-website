@@ -4,8 +4,8 @@ import axios from "axios";
 const ProductList = () => {
   const [tableData, setTableData] = useState([]);
   const [forceRender, setForceRender] = useState(false);
-  const [updatedCaption, setUpdatedCaption] = useState(""); // State for updated caption
-  const [selectedProductId, setSelectedProductId] = useState(null); // State to track the selected product ID for updating
+  const [updatedCaption, setUpdatedCaption] = useState("");
+  const [selectedProductId, setSelectedProductId] = useState(null);
 
   useEffect(() => {
     const fetchUserData = async () => {
@@ -44,7 +44,7 @@ const ProductList = () => {
       const token = localStorage.getItem("token");
       const updatedData = { caption: updatedCaption };
       const response = await axios.put(
-        `https://prashilexports.onrender.com/photos/${_id}/caption`, // Updated endpoint without /caption
+        `https://prashilexports.onrender.com/photos/${_id}/caption`,
         updatedData,
         {
           headers: { Authorization: `Bearer ${token}` },
@@ -69,31 +69,26 @@ const ProductList = () => {
           </h5>
           <h1 className="mb-5">Most Popular Product</h1>
         </div>
-        <div
-          className="tab-className text-center wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
+        <div className="tab-className text-center wow fadeInUp" data-wow-delay="0.1s">
           <div className="tab-content">
             <div className="row g-4">
               {tableData.map((product) => (
-                <div key={product._id} className="col-lg-6">
-                  <div className="d-flex align-items-center">
+                <div key={product._id} className="col-lg-6 mb-4">
+                  <div className="card h-100 border-0 shadow-sm">
                     {product.image && product.image.url ? (
                       <img
-                        width="100"
-                        height="50"
+                        className="card-img-top rounded"
                         src={product.image.url}
                         alt={product.caption}
+                        style={{ maxWidth: "100%", height: "auto" }}
                       />
                     ) : (
-                      <p>No Image Available</p>
+                      <div className="card-body d-flex align-items-center justify-content-center">
+                        <p className="card-text">No Image Available</p>
+                      </div>
                     )}
-                    {console.log("wehjewu", product.url)}
-
-                    <div className="w-100 d-flex flex-column text-start ps-4">
-                      <h5 className="d-flex justify-content-between border-bottom pb-2">
-                        <span>{product.name}</span>
-                      </h5>
+                    <div className="card-body">
+                      <h5 className="card-title">{product.name}</h5>
                       {selectedProductId === product._id ? (
                         <div className="d-flex align-items-center">
                           <input
@@ -110,7 +105,7 @@ const ProductList = () => {
                           </button>
                           <button
                             className="btn btn-danger"
-                            onClick={() => setSelectedProductId(null)} // Cancel editing
+                            onClick={() => setSelectedProductId(null)}
                           >
                             Cancel
                           </button>
@@ -121,7 +116,7 @@ const ProductList = () => {
                           <div className="d-flex justify-content-end mt-3">
                             <button
                               className="btn btn-warning me-2"
-                              onClick={() => setSelectedProductId(product._id)} // Select product for editing
+                              onClick={() => setSelectedProductId(product._id)}
                             >
                               Edit Caption
                             </button>

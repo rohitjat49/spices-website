@@ -9,7 +9,7 @@ const products = [
     description: "Chili products include dried chili flakes, chili powder...",
     fullDescription:
       "Chili products include dried chili flakes, chili powder, chili paste, hot sauces, and chili-infused oils. These products are used in various recipes to add spiciness and flavor. Hot sauces, in particular, come in a wide range of heat levels to cater to different preferences.",
-    image: "img/menu-1.jpg",
+    image: "img/pexels-pixabay-39390.jpg",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const products = [
     description: "The most common form of turmeric used in cooking is its...",
     fullDescription:
       "The most common form of turmeric used in cooking is its ground powder. Turmeric powder is made by drying and grinding the rhizomes (underground stems) of the turmeric plant. It has a bright yellow color and a warm, slightly bitter taste.",
-    image: "img/menu-2.jpg",
+    image: "img/pexels-martabranco-1340116.jpg",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const products = [
       "Cumin, also known as jeera, is a spice derived from the dried seeds...",
     fullDescription:
       "Cumin, also known as jeera, is a spice derived from the dried seeds of the Cuminum cyminum plant, which is a member of the parsley family. Here are some key points about cumin...",
-    image: "img/menu-3.jpg",
+    image: "img/pexels-srbscape-15352081.jpg",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const products = [
       "Ginger is a flowering plant belonging to the Zingiberaceae family...",
     fullDescription:
       "Ginger is a flowering plant belonging to the Zingiberaceae family, which also includes turmeric, cardamom, and galangal. Here are some key points about ginger...",
-    image: "img/menu-4.jpg",
+    image: "img/pexels-pixabay-161556.jpg",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const products = [
       "Garlic is a species in the onion genus, Allium, and is closely related to onions...",
     fullDescription:
       "Garlic is a species in the onion genus, Allium, and is closely related to onions, shallots, leeks, and chives. Here are some key points about garlic...",
-    image: "img/menu-5.jpg",
+    image: "img/pexels-isabella-mendes-107313-928251.jpg",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const products = [
       "Coriander, also known as cilantro in some regions, is a herbaceous plant...",
     fullDescription:
       "Coriander, also known as cilantro in some regions, is a herbaceous plant belonging to the Apiaceae family. Here are some key points about coriander...",
-    image: "img/menu-6.jpg",
+    image: "img/pexels-rajesh-s-balouria-1289088-10329642.jpg",
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ const products = [
       "Curry masala, also known as curry powder or curry spice mix, is a blend of various spices...",
     fullDescription:
       "Curry masala, also known as curry powder or curry spice mix, is a blend of various spices commonly used in Indian, Southeast Asian, and other international cuisines. Here are some key points about curry masala...",
-    image: "img/menu-7.jpg",
+    image: "img/pexels-mareefe-678414 (2).jpg",
   },
   {
     id: 8,
@@ -71,7 +71,7 @@ const products = [
       "Garam masala is a popular spice blend originating from the Indian subcontinent...",
     fullDescription:
       "Garam masala is a popular spice blend originating from the Indian subcontinent. Here are some key points about garam masala...",
-    image: "img/menu-8.jpg",
+    image: "img/pexels-riki-lifestyle-77353139-8649386.jpg",
   },
   {
     id: 9,
@@ -80,7 +80,7 @@ const products = [
       "Sambar masala, also spelled as sambhar masala, is a spice blend used predominantly in South Indian cuisine...",
     fullDescription:
       "Sambar masala, also spelled as sambhar masala, is a spice blend used predominantly in South Indian cuisine, especially in the preparation of sambar, a popular lentil-based stew. Here are some key points about sambar masala...",
-    image: "img/menu-9.jpg",
+    image: "img/pexels-pranjall-kumar-150768-8625813.jpg",
   },
   {
     id: 10,
@@ -88,7 +88,7 @@ const products = [
     description: "Whole onions come in various types and varieties...",
     fullDescription:
       "Whole onions come in various types and varieties, including yellow onions, red onions, white onions, and sweet onions such as Vidalia or Walla Walla onions. Each variety has its own distinct flavor profile and culinary uses.",
-    image: "img/menu-10.jpg",
+    image: "img/pexels-karolina-grabowska-4197444.jpg",
   },
   {
     id: 11,
@@ -97,7 +97,7 @@ const products = [
       "Dried onions, also known as dehydrated onions, are onions that have been processed...",
     fullDescription:
       "Dried onions, also known as dehydrated onions, are onions that have been processed to remove moisture, resulting in a shelf-stable product with a longer storage life. Here are some key points about dried onions...",
-    image: "img/menu-11.jpg",
+    image: "img/pexels-alistair-mockett-146505529-10444827.jpg",
   },
   {
     id: 12,
@@ -106,7 +106,7 @@ const products = [
       "Onion flakes, also known as dried onion flakes or dehydrated onion flakes, are a form of dried onions...",
     fullDescription:
       "Onion flakes, also known as dried onion flakes or dehydrated onion flakes, are a form of dried onions that have been processed into thin, flat pieces. Here are some key points about onion flakes...",
-    image: "img/menu-12.jpg",
+    image: "img/pexels-silvia-trigo-545701-1292984.jpg",
   },
   {
     id: 13,
@@ -115,7 +115,7 @@ const products = [
       "Fox Nuts is a type of seed that is rich in protein, calcium, and antioxidants...",
     fullDescription:
       "Fox Nuts is a type of seed that is rich in protein, calcium, and antioxidants. It is a popular snack, especially in India, where it is consumed daily and also prepared on special occasions.",
-    image: "img/menu-13.jpg",
+    image: "img/makhane.jpg",
   },
   {
     id: 14,
@@ -124,7 +124,7 @@ const products = [
       "Papad is a popular Indian crispy snack made from a variety of ingredients...",
     fullDescription:
       "Papad is a popular Indian crispy snack made from a variety of ingredients such as lentils, chickpea flour, rice flour, or potato. It is typically seasoned with spices and then dried in the sun or roasted to make it crispy. Papad is a versatile dish that can be served as an appetizer, snack, or accompaniment to main meals.",
-    image: "img/menu-14.jpg",
+    image: "img/papad.jpg",
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ const products = [
     description: "Oil can refer to various types depending on its context...",
     fullDescription:
       "Oil can refer to various types depending on its context. Here's a breakdown of different types of oils commonly referred to...",
-    image: "img/menu-15.jpg",
+    image: "img/oil.jpg",
   },
 ];
 
@@ -165,7 +165,7 @@ export const PhotoUpload = () => {
                       className="flex-shrink-0 img-fluid rounded"
                       src={product.image}
                       alt={product.name}
-                      style={{ width: "80px" }}
+                      style={{ width: "100px", height:"100px" }}
                     />
                     <div className="w-100 d-flex flex-column text-start ps-4">
                       <h5 className="d-flex justify-content-between border-bottom pb-2">
